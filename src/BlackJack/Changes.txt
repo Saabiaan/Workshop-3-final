@@ -1,0 +1,7 @@
+Changes made after peer review.
+
+I changed the observer pattern since this wasn’t all that good. This was pointed out in the review but I already knew this. Now it should be as it’s supposed to be. I also programmed it so that when the dealer shows his second card there is a pause. This wasn’t a change suggested in the peer review but I think it makes it much nicer.
+
+I made some changes in the controller and view to eliminate the hidden dependencies between them. In the controller it now asks the view for whether the player has chosen play, hit, stand or quit. It doesn’t get any input directly from the view.
+
+I made a small change to the rules regarding who is the winner due to a small mistake. I hade made the two classes IsDealerWinner and IsPlayerWinner the same but now there is a small difference.
